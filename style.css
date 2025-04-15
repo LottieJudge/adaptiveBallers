@@ -141,3 +141,92 @@ body {
     height: auto;
   }
 }
+
+/* contact section with mq's */
+.contactSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+  padding: 80px 15%;
+  color: #313131;;
+  align-items: flex-start;
+}
+
+.contactFormContainer {
+  flex: 1 1 45%;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.contactForm h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #313131;
+  font-size: 1em;
+}
+
+.contactForm button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #FF6600;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: 600;
+  color: #313131;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactForm button:hover {
+  background-color: #E55A00;
+}
+
+.ourContact {
+  flex: 1 1 45%;
+  text-align: center;
+}
+
+.ourContact h6 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.ourContact a {
+  font-size: 1.1em;
+  color: #FF6600;
+}
+
+.ourContact a:hover {
+  text-decoration: underline;
+}
+
+#socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+#socials svg {
+  width: 32px;
+  height: 32px;
+  color: #FF6600;
+  transition: color 0.3s ease;
+}
+
+#socials svg:hover {
+  color: #E55A00;
+}
