@@ -32,6 +32,11 @@ body {
   display: inline;
 }
 
+.logo img {
+  height: 50px; 
+  width: auto;
+}
+
 .nav-links a {
   text-decoration: none;
   font-size: 1rem;
