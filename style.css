@@ -149,7 +149,7 @@ body {
   gap: 40px;
   justify-content: space-between;
   padding: 80px 15%;
-  color: #313131;;
+  color: #313131;
   align-items: flex-start;
 }
 
@@ -229,4 +229,47 @@ body {
 
 #socials svg:hover {
   color: #E55A00;
+}
+
+/* Media Queries for Mobile */
+@media (max-width: 768px) {
+  .contactSection {
+    flex-direction: column;
+    padding: 40px 10%;
+    gap: 20px;
+  }
+
+  .contactFormContainer,
+  .ourContact {
+    flex: 1 1 100%;
+    padding: 20px;
+    box-shadow: none; 
+  }
+  .contactForm h2 {
+    font-size: 1.5em;
+  }
+
+  .contactForm input,
+  .contactForm textarea {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+
+  .contactForm button {
+    font-size: 0.9em;
+    padding: 10px 15px;
+  }
+
+  .ourContact h6 {
+    font-size: 1em;
+  }
+
+  .ourContact a {
+    font-size: 1em;
+  }
+
+  #socials svg {
+    width: 28px;
+    height: 28px;
+  }
 }
