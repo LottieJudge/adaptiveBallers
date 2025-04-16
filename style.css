@@ -232,7 +232,7 @@ body {
   color: #E55A00;
 }
 
-/* Media Queries for Mobile */
+/* mob mq's */
 @media (max-width: 768px) {
   .contactSection {
     flex-direction: column;
@@ -275,6 +275,7 @@ body {
   }
 }
 
+/* about section */
 .about-section {
   padding: 80px 15%;
   background-color: #fdf0e6;
@@ -306,6 +307,7 @@ body {
   object-fit: cover;
 }
 
+/* teams section */
 .teams-section {
   padding: 80px 10%;
   background-color: #fff7f0;
@@ -354,6 +356,7 @@ body {
   font-weight: 600;
 }
 
+/* blog and top tips section */
 .blog-section {
   padding: 80px 15%;
   background-color: #fff;
